@@ -1,0 +1,6 @@
+framework module MXSKit {
+  umbrella header "MXSKit.h"
+
+  export *
+  module * { export * }
+}

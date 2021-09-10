@@ -40,8 +40,8 @@
 		1964A3444DAAA38DC578BFEB /* Pods-MXSAppKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXSAppKit_Example.release.xcconfig"; path = "Target Support Files/Pods-MXSAppKit_Example/Pods-MXSAppKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2393AE3BF11386FECB779EC2 /* Pods_MXSAppKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MXSAppKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B073424ED9CC5AEDD102416 /* Pods_MXSAppKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MXSAppKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		386666262ABA6B2598209532 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		572BE5F8E3FB3921B80E9DAF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		386666262ABA6B2598209532 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		572BE5F8E3FB3921B80E9DAF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MXSAppKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MXSAppKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,7 +65,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DD022F9228179F8C2A11407 /* Pods-MXSAppKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXSAppKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-MXSAppKit_Tests/Pods-MXSAppKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B5094FA2F0BA0014D566DA31 /* Pods-MXSAppKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXSAppKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MXSAppKit_Tests/Pods-MXSAppKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E951C605D61C6255BA09113F /* MXSAppKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MXSAppKit.podspec; path = ../MXSAppKit.podspec; sourceTree = "<group>"; };
+		E951C605D61C6255BA09113F /* MXSAppKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MXSAppKit.podspec; path = ../MXSAppKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F284BE0A6CF2F952980107EE /* Pods-MXSAppKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXSAppKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-MXSAppKit_Example/Pods-MXSAppKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				B5094FA2F0BA0014D566DA31 /* Pods-MXSAppKit_Tests.debug.xcconfig */,
 				8DD022F9228179F8C2A11407 /* Pods-MXSAppKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				0D17C7F60CC65BB455D9720F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +246,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "15666004981@163.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = P92YT6P7S2;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +259,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -295,24 +297,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0D17C7F60CC65BB455D9720F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MXSAppKit_Example/Pods-MXSAppKit_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MXSAppKit/MXSAppKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MXSAppKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MXSAppKit_Example/Pods-MXSAppKit_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		26294B150644EC392665644D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -494,6 +478,7 @@
 			baseConfigurationReference = F284BE0A6CF2F952980107EE /* Pods-MXSAppKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P92YT6P7S2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MXSAppKit/MXSAppKit-Prefix.pch";
 				INFOPLIST_FILE = "MXSAppKit/MXSAppKit-Info.plist";
@@ -510,6 +495,7 @@
 			baseConfigurationReference = 1964A3444DAAA38DC578BFEB /* Pods-MXSAppKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P92YT6P7S2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MXSAppKit/MXSAppKit-Prefix.pch";
 				INFOPLIST_FILE = "MXSAppKit/MXSAppKit-Info.plist";

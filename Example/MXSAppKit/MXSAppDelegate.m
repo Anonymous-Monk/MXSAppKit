@@ -7,12 +7,14 @@
 //
 
 #import "MXSAppDelegate.h"
+#import <MXSKit/MXSKit.h>
 
 @implementation MXSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    RHLog(@"11111");
     return YES;
 }
 

@@ -1,0 +1,16 @@
+PODS:
+  - MXSAppKit (0.1.0)
+
+DEPENDENCIES:
+  - MXSAppKit (from `../`)
+
+EXTERNAL SOURCES:
+  MXSAppKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MXSAppKit: 553e2fa48e8050e1470dd56d9f65d3519d990c83
+
+PODFILE CHECKSUM: 66bcfe7c8bbb0ef67239d488fffb48d28866129f
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,23 @@
+{
+  "name": "MXSAppKit",
+  "version": "0.1.0",
+  "summary": "A short description of MXSAppKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/15666004981@163.com/MXSAppKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "15666004981@163.com": "15666004981@163.com"
+  },
+  "source": {
+    "git": "https://github.com/15666004981@163.com/MXSAppKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "vendored_frameworks": "MXSAppKit/Lib/MXSKit.framework",
+  "source_files": "MXSAppKit/Classes/**/*"
+}

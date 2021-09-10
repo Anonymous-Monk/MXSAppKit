@@ -1,0 +1,6 @@
+framework module MXSAppKit {
+  umbrella header "MXSAppKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
