@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'MXSAppKit_Example' do
+  pod 'MXSAppKit', :path => '../'
+
+  target 'MXSAppKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
