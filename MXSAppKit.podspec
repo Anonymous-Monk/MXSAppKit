@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
   
   s.vendored_frameworks = 'MXSAppKit/Lib/MXSKit.framework'
 
-  s.source_files = 'MXSAppKit/Classes/**/*'
+  # s.source_files = 'MXSAppKit/Classes/**/*'
   
   # s.resource_bundles = {
   #   'MXSAppKit' => ['MXSAppKit/Assets/*.png']
